@@ -32,5 +32,17 @@ public class CarroTeste {
         //  RELAÇÃO BIDIRECIONAL UM MOTOR TEM UM CARRO E UM CARO TEM UM MOTOR
         System.out.println(c.motor.carro.motor.carro.motor.giros());
 
+        c.adicionarPorta(1);
+        c.adicionarPorta(2);
+        c.adicionarPorta(3);
+        c.adicionarPorta(4);
+
+        c.acelerar();
+        System.out.println(c.motor.giros());
+
+        c.portas.get(0).abrirPorta();
+        c.acelerar();
+        System.out.println(c.motor.giros());
+
     }
 }
