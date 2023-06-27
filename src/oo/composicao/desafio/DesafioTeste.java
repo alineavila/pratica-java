@@ -10,13 +10,20 @@ public class DesafioTeste {
 
         Item i1 = new Item(p1, 3);
         Item i2 = new Item(p2, 1);
+        Item i3 = new Item(p3, 1);
+        Item i4 = new Item(p4, 1);
 
         Compra compra1 = new Compra();
         compra1.adicionarItem(i1);
         compra1.adicionarItem(i2);
 
+        Compra compra2 = new Compra();
+        compra2.adicionarItem(i3);
+        compra2.adicionarItem(i4);
+
         Cliente cliente1 = new Cliente("Aline");
         cliente1.adicionarCompra(compra1);
+        cliente1.adicionarCompra(compra2);
 
         System.out.println(cliente1.obterValorTotal());
 
