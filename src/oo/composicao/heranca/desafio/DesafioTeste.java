@@ -2,8 +2,8 @@ package oo.composicao.heranca.desafio;
 
 public class DesafioTeste {
     public static void main(String[] args) {
-        Carro celtinha = new Celta();
-        Carro newCivic = new Civic();
+        Carro celtinha = new Celta(120);
+        Carro newCivic = new Civic(250);
 
         celtinha.acelerar();
         celtinha.acelerar();
