@@ -4,7 +4,7 @@ public class Celta extends Carro {
 
 
 
-    Celta(int velocidade_maxima){
+    public Celta(int velocidade_maxima){
         super(velocidade_maxima);
         delta = 15;
     }

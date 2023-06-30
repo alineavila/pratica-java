@@ -1,4 +1,8 @@
-package oo.composicao.heranca;
+package oo.composicao.heranca.teste;
+
+import oo.composicao.heranca.Heroi;
+import oo.composicao.heranca.Jogador;
+import oo.composicao.heranca.Monstro;
 
 public class Jogo {
     public static void main(String[] args) {
