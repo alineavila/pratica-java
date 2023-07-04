@@ -1,6 +1,6 @@
 package oo.composicao.polimorfismo;
 
-public class Comida {
+public abstract class Comida {
 
     protected double peso;
 
