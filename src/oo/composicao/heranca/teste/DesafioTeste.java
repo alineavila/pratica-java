@@ -6,7 +6,8 @@ import oo.composicao.heranca.desafio.Civic;
 
 public class DesafioTeste {
     public static void main(String[] args) {
-        Carro celtinha = new Celta(120);
+        Celta celtinha = new Celta(120);
+        celtinha.ligarTurbo();
         Carro newCivic = new Civic(250);
 
         celtinha.acelerar();

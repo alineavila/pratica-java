@@ -1,12 +1,12 @@
 package oo.composicao.heranca.desafio;
 
-public class Celta extends Carro {
+public class Celta extends Carro implements Esportivo, Luxo {
 
 
 
     public Celta(int velocidade_maxima){
         super(velocidade_maxima);
-        delta = 15;
+        setDelta(15);
     }
 
     Celta(){
@@ -18,4 +18,25 @@ public class Celta extends Carro {
 //        super.acelerar();
 //
 //    }
+
+
+    @Override
+    public void ligarTurbo() {
+        setDelta(35);
+    }
+
+    @Override
+    public void desligarTurbo() {
+        setDelta(15);
+    }
+
+    @Override
+    public void ligarAr() {
+
+    }
+
+    @Override
+    public void desligarAr() {
+
+    }
 }
